@@ -2,18 +2,23 @@
   "name": "lab5_starter-forked-",
   "version": "1.0.0",
   "description": "Make sure you make a PR to your own repo's main and not the class' repo!! Otherwise you will lose points!!",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/laviitai/Lab5_Starter-forked-.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
+  "jest": {
+    "transform": {},
+    "verbose": true
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
   "bugs": {
     "url": "https://github.com/laviitai/Lab5_Starter-forked-/issues"
   },
